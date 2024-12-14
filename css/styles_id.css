@@ -1,0 +1,122 @@
+/* Body  */
+body {
+    background-color: #535353;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav {
+    border: 1em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav img {
+    max-width: 400px;
+    height: auto;
+}
+header nav a {
+    border-style: inset;
+    border: 5px;
+    padding: 5px;
+    margin: 2em;
+    transition: all 250ms ease-in-out;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: copperplate Gothic;
+    font-weight: lighter;
+    font-size: 35px;
+    color: #ffffff;
+    border-spacing: 55px;
+}
+iframe {
+    border: 1em;
+    padding: 1em;
+}
+header nav a:hover {
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    background-color:#828282;  
+    box-shadow: 
+    inset -4px -4px 8px rgba(0, 0, 0, 0.9),
+    inset 4px 4px 8px rgba(255, 255, 255, 0.4); 
+}
+ul {
+    display: flex;
+    list-style: none;
+}
+/* main  */
+.photo-row {
+    display: flex;
+    justify-content: center;
+    gap: 20em;
+    margin: 20px;
+    flex-wrap: wrap; 
+  }
+  
+  .photo-row div {
+    text-align: center;       
+    max-width: 300px;         
+  }
+  
+  .photo-row img {
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+  }
+main h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: copperplate Gothic;
+    font-weight: bold;
+    font-size: 30px;
+  }
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+/* Footer */
+footer {
+    background-color: #454343; 
+    padding: 20px; 
+}
+footer h2 {
+    text-align: left;
+    font-family: copperplate Gothic;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #a1a0a0;
+    margin: 1em;
+    padding: 10px;
+}
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+footer nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+footer img {
+    max-width: 150px;
+    height: auto;
+    opacity: 0.5;
+}
+footer nav ul li a {
+    text-decoration: none;
+    color: #a1a0a0;
+    font-size: 16px;
+}
+
+footer nav ul li a:hover {
+    color: #ffffff;
+}
